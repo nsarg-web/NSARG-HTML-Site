@@ -52,10 +52,9 @@ p {
     margin-top: 1px;
     width: auto;
 }
-
 grid-container-nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     grid-auto-rows: 60px;
     grid-gap: 20px;
   }      
