@@ -52,13 +52,14 @@ p {
     margin-top: 1px;
     width: auto;
 }
-grid-container {
+
+grid-container-nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: 60px;
     grid-gap: 20px;
   }      
-  grid-item {
+  grid-item-nav{
     display: grid;
     align-items: center;
     justify-items: center;
