@@ -13,33 +13,37 @@
     font-family: 'NunitoSans-Regular';
     src: url('nunitofont/NunitoSans-Regular.ttf');
 }
+
 @font-face {
     font-family: 'NunitoSans-Bold';
     src: url('nunitofont/NunitoSans-Bold.ttf');
 }
+
 body {
     background-image: url("backgnd.jpg");
     /*text-align: center;*/
     color: #4D1979;
-    margin:25px;
+    margin: 25px;
 
 }
+
 /*Used Site Wide*/
 p {
-    font-family:NunitoSans-Regular, serif;
+    font-family: NunitoSans-Regular, serif;
     font-size: 9pt;
     text-align: center;
-    color:black;
+    color: black;
 }
 
 /*Used Site Wide*/
 .titletext {
-    font-family:NunitoSans-Bold, serif;
+    font-family: NunitoSans-Bold, serif;
     text-align: center;
-    font-style:italic;
+    font-style: italic;
     font-size: 26pt;
     line-height: 1.1;
 }
+
 .title {
     font-family: NunitoSans-Bold, serif;
     border-style: none;
@@ -52,26 +56,6 @@ p {
     margin-top: 1px;
     width: auto;
 }
-grid-container-nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
-    grid-auto-rows: 60px;
-    grid-gap: 20px;
-  }      
-  grid-item-nav{
-    display: grid;
-    align-items: center;
-    justify-items: center;
-  }      
-  grid-container {
-    background-color: #fff;
-    border: 1px solid #666;
-    padding: 20px;
-  } 
-  grid-item {
-    background-color:transparent;
-    border: 0px solid #666;
-  }
 
 /*Used Site Wide*/
 .heading {
@@ -85,6 +69,7 @@ grid-container-nav {
     margin-top: 1px;
     width: auto;
 }
+
 /*Used Site Wide*/
 .text {
     font-family: NunitoSans-Regular, sans-serif;
@@ -102,7 +87,7 @@ grid-container-nav {
 
 
 ol {
-    font-family:NunitoSans-Regular,sans-serif;
+    font-family: NunitoSans-Regular, sans-serif;
     font-size: 12pt;
     font-weight: bold;
 }
@@ -111,28 +96,33 @@ ol {
 
 /*Sets the colour for text*/
 .green {
-    color: #23a950; /*Official Scout green*/
+    color: #23a950;
+    /*Official Scout green*/
 }
+
 /*Used Site Wide*/
 /*Sets the colour for text*/
 .purple {
-    color: #7413dc; /*Official Scout Purple*/
+    color: #7413dc;
+    /*Official Scout Purple*/
 }
+
 /*Used Site Wide*/
-.kneckerchief {    
+.kneckerchief {
     margin-left: auto;
     margin-right: auto;
     width: 875px;
-    text-align:center;
+    text-align: center;
     /*border:double;*/
-    padding-left:5px;
-    padding-right:5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-.hscommtable tr td{
+
+.hscommtable tr td {
     border: 3px ridge;
     background-color: #D8ECC1;
     width: 875px;
-    height:inherit;
+    height: inherit;
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
@@ -143,8 +133,8 @@ ol {
 
 /*Used Site Wide*/
 table {
-   /*border:dotted;*/
-   width: 875px;
+    /*border:dotted;*/
+    width: 875px;
     height: 102px;
     padding-left: 5px;
     padding-right: 5px;
@@ -155,7 +145,7 @@ table {
 
 /*Jota.html */
 .jotatsite {
-    border:groove;
+    border: groove;
     width: 825px;
     height: 100px;
     padding-left: 5px;
@@ -163,6 +153,7 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
 /*dmreq.html dcreq.html*/
 .badgereqtable tr {
     border: 1px ridge;
@@ -177,8 +168,7 @@ table {
 }
 
 /*dmreq.html dcreq.html */
- .reqheader
- {
+.reqheader {
     width: 180px;
     /*border:dashed;*/
 }
@@ -194,39 +184,57 @@ table {
     column-width: 50px
 }
 
-.colpicture{
-    padding-left:2em;
-    padding-right:2em;
-    width:75px;
+/*CSS Grid */
+.grid-container {
+    display: grid;
+    grid-template-rows:2;
+    grid-template-columns:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    background-color:transparent;
+    padding: 30px;
+  }
+  .grid-item {
+    background-color: transparent;
+    padding: 20px;
+  
+  }
+
+.colpicture {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 75px;
 }
 
 /* unvisited link */
 a:link {
     color: #400080;
 }
+
 /* visited link */
 a:visited {
     color: #808080;
 }
+
 .column2 {
-    border:double;
+    border: double;
     float: left;
     padding: 10px;
     width: 30%;
     display: block;
 }
+
 /*Used Site wide*/
 .column3 {
     /*border:double;*/
-    margin-left:4px;
-    float:left;
+    margin-left: 4px;
+    float: left;
     padding: 8px;
     width: 30%;
-    display:inline-table;
-    }
+    display: inline-table;
+}
+
 /*Resources.html*/
 .column3center {
-    border:double;
+    border: double;
     float: inherit;
     padding: 25px;
     width: 60%;
@@ -235,12 +243,12 @@ a:visited {
 
 
 .imgcenter {
-    vertical-align:middle;
+    vertical-align: middle;
 }
 
-.salesborder tr{
+.salesborder tr {
     border: 1px ridge;
-    background-color: lightgrey ;
+    background-color: lightgrey;
     width: 875px;
     height: inherit;
     padding-left: 5px;
@@ -253,26 +261,31 @@ a:visited {
 /*index page */
 .meetingdate {
     font-family: NunitoSans-Bold, serif;
-    color: #7413dc; /*Official Scout Purple*/
+    color: #7413dc;
+    /*Official Scout Purple*/
     text-align: center;
     font-size: 20pt;
 }
+
 /* index page */
 .meetingvenue {
     font-family: NunitoSans-Regular, serif;
-    font-style:italic;
-    color: #7413dc; /*Official Scout Purple*/
+    font-style: italic;
+    color: #7413dc;
+    /*Official Scout Purple*/
     text-align: center;
-font-size: 18pt;}
-
-	/*index page*/
-.meetingAgenda{
-	font-family:nunitofont/NunitoSans-regular;
-	text-align:center;
-	font-size:12pt;
-	
-	
+    font-size: 18pt;
 }
+
+/*index page*/
+.meetingAgenda {
+    font-family: nunitofont/NunitoSans-regular;
+    text-align: center;
+    font-size: 12pt;
+
+
+}
+
 /* index page */
 .columnemail {
     width: 875px;
@@ -282,7 +295,7 @@ font-size: 18pt;}
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    table-layout:fixed;
+    table-layout: fixed;
 }
 
 
@@ -301,11 +314,13 @@ font-size: 18pt;}
     color: #999999;
     font-size: 24pt;
 }
+
 /*Index.html*/
 .marqueetext {
     font-family: NunitoSans-Bold, serif;
     font-size: 20pt;
 }
+
 /*Sets the table for links.html*/
 .tablelinkpage {
     border: double;
