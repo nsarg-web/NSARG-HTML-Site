@@ -181,6 +181,8 @@ table {
     width: 800px;
     column-count: 4;
 }
+
+/*<!-- Navigation buttons at the footer of the page -->*/
 .grid-container {
     display: grid;
     /* Columns are created by the number of "auto" row below has 5 equal width columns */
@@ -195,6 +197,23 @@ table {
     font-size: 1px;
     text-align: center;
   }
+.grid-container2 {
+    display: grid;
+    /* Places the second row of Nav buttons   3* auto sets 3 columns */
+    /*grid-template-columns:175x 175px 175px;*/
+    grid-template-columns:auto auto auto;
+    background-color: transparent;
+    padding: 5px;
+  }
+  .grid-item2 {
+    background-color: transparent;
+    border: 1px;
+    padding: 30px;
+    font-size: 1px;
+    text-align: center;
+  }
+
+  
 
 .colpicture {
     padding-left: 2em;
