@@ -180,22 +180,20 @@ table {
     /*padding: 10px;*/
     width: 800px;
     column-count: 4;
-    column-gap: 20px;
-    column-width: 50px
 }
-
-/*CSS Grid */
 .grid-container {
     display: grid;
-    grid-template-rows:2;
-    grid-template-columns:12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-    background-color:transparent;
-    padding: 30px;
+    /* Columns are created by the number of "auto" row below has 5 equal width columns */
+    grid-template-columns: auto auto auto auto auto;
+    background-color: transparent;
+    padding: 5px;
   }
   .grid-item {
     background-color: transparent;
-    padding: 20px;
-  
+    border: 1px;
+    padding: 30px;
+    font-size: 1px;
+    text-align: center;
   }
 
 .colpicture {
